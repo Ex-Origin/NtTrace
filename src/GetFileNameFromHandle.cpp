@@ -6,7 +6,7 @@ DESCRIPTION
     Helper function to try and get a meaningful file name from an opened file handle
 
 COPYRIGHT
-    Original code © 2010 Microsoft Corporation. All rights reserved.
+    Original code Â© 2010 Microsoft Corporation. All rights reserved.
     From http://msdn.microsoft.com/en-us/library/aa366789%28v=vs.85%29.aspx 
 
     Changes copyright (C) 2011 by Roger Orr <rogero@howzatt.co.uk>
