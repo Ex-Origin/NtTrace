@@ -30,7 +30,7 @@ clean :
 	@-del NtTrace.exe NtTrace.exe.manifest NtTrace.res *.pdb
 	@-rd /q /s build
 
-CCFLAGS = /nologo /MD /W3 /WX /Zi /Iinclude /D_CRT_SECURE_NO_WARNINGS
+CCFLAGS = /nologo /MT /W3 /WX /Zi /Iinclude /D_CRT_SECURE_NO_WARNINGS /O2
 LINKFLAGS = /link /opt:ref,icf
 
 {src}.cpp{build}.obj::
